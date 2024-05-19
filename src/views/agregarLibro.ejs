@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Añadir Libro</title>
+</head>
+<body>
+  <h1>Añadir Libro</h1>
+  <form action="/libros" method="POST">
+    <label for="libro_id">ID Libro:</label>
+    <input type="text" id="libro_id" name="libro_id" required><br>
+
+    <label for="editorial_id">ID Editorial:</label>
+    <input type="text" id="editorial_id" name="editorial_id" required><br>
+
+    <label for="categoria_id">ID Categoría:</label>
+    <input type="text" id="categoria_id" name="categoria_id" required><br>
+
+    <label for="autor_id">ID Autor:</label>
+    <input type="text" id="autor_id" name="autor_id" required><br>
+
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" required><br>
+
+    <label for="paginas">Páginas:</label>
+    <input type="number" id="paginas" name="paginas" required><br>
+
+    <button type="submit">Añadir</button>
+  </form>
+</body>
+</html>

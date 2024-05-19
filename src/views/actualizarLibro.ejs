@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualizar Libro</title>
+</head>
+<body>
+    <h1>Actualizar Libro</h1>
+    <form action="/libros/actualizar" method="POST">
+        <label for="libro_id">ID del Libro (Obligatorio):</label>
+        <input type="number" id="libro_id" name="libro_id" required>
+       
+        
+        <label for="editorial_id">ID de la Editorial:</label>
+        <input type="number" id="editorial_id" name="editorial_id">
+        
+        <label for="categoria_id">ID de la Categoría:</label>
+        <input type="number" id="categoria_id" name="categoria_id">
+        
+        <label for="autor_id">ID del Autor:</label>
+        <input type="number" id="autor_id" name="autor_id">
+         
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo">
+        
+        <label for="paginas">Páginas:</label>
+        <input type="number" id="paginas" name="paginas">
+        
+        <button type="submit">Actualizar</button>
+    </form>
+</body>
+</html>
